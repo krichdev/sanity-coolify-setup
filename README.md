@@ -1,11 +1,14 @@
-# Sanity Blogging Content Studio
+# Self Host Sanity Studio with Coolify
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+From your Coolify dashboard, select or add a new project.
 
-Now you can do the following things:
+Within the project, add a new github project (public or private), and link this your sanity repo.
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)
-- [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+Under resource configuration, these updates:
+- Build Pack: Nixpacks
+- Optionally: Update domain
+- Publish Directory: /dist (assuming sanity defaults were not updated)
+- Enable the `Is it a static site?` option
+
+Now your Sanity studio application will be ready to deploy.
+
